@@ -36,8 +36,8 @@ def send_email(from_email, from_password, to_emails, subject, message, image_pat
         print(f'Gagal mengirim email: {str(e)}')
 
 if __name__ == '__main__':
-    from_email = 'ikhsanaa@students.amikom.ac.id'
-    from_password = 'Ara130202@'
+    from_email = 'YOUREMAIL-SMTP'
+    from_password = 'YOURPASSWORD-SMTP'
     to_emails = input("Masukkan alamat email penerima: ")
     subject = input("Masukkan subjek email: ")
     message = input("Masukkan pesan email: ")
